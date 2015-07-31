@@ -49,7 +49,7 @@
     }
     else
     {
-        NSError *error = [NSError errorWithDomain:@"com.shrtlist.snapfresh" code:99 userInfo:@{NSLocalizedFailureReasonErrorKey:@"Invalid coordinate"}];
+        NSError *error = [NSError errorWithDomain:@"localhost:3000" code:99 userInfo:@{NSLocalizedFailureReasonErrorKey:@"Invalid coordinate"}];
         [self.delegate snapRetailersDidNotLoadWithError:error];
     }
 }

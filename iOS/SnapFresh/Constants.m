@@ -7,7 +7,7 @@
 //
 
 // SnapFresh API base URL
-NSString * const kSnapFreshBaseURL = @"http://snapfresh.org";
+NSString * const kSnapFreshBaseURL = @"http://698c2fc8.ngrok.io";
 
 // SnapFresh API endpoint
 NSString * const kSnapFreshEndpoint = @"/retailers/nearaddy.json/";
